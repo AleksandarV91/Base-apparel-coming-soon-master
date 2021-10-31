@@ -202,13 +202,10 @@ button{
     button{
         width: 100px;
         height: 56px;
-        transition: box-shadow 0.5s;
-        position: absolute;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        left: 515px;
-        bottom: 147px;
+        display: block;
+        position: relative;
+        bottom: -25px;
+        left: -100px;
     }
 
     button:hover{
