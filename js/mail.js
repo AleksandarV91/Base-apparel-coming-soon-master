@@ -10,7 +10,7 @@ const setError = () => {
 }
 
 const setSuccess = () => {
-   emailInput.classList.remove('email-error-border');
+   emailInput.classList.remove('error-border');
    errorMessage.classList.add('hidden');
    errorIcon.classList.add('hidden');
 }
@@ -32,4 +32,5 @@ const checkEmail = () => {
 form.addEventListener('submit', (event) => {
    event.preventDefault();
    checkEmail();
+   emailInput.value = ""
 });
