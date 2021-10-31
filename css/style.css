@@ -79,6 +79,8 @@ form{
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
+    margin-left: 75px;
 }
 
 input{
@@ -122,7 +124,7 @@ button{
     display: block;
     font-size: 13px;
     font-weight: 400;
-    left: 65px;
+    left: 100px;
     color: var(--soft-red);
 }
 
