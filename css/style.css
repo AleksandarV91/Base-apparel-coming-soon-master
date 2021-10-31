@@ -82,6 +82,8 @@ form{
 }
 
 input{
+    display: flex;
+    justify-content: center;
     width: 311px;
     height: 48px;
     border-radius: 28px;
@@ -97,31 +99,30 @@ input::placeholder{
 }
 
 button{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: block;
     width: 64px;
     height: 48px;
     background: var(--strong-gradient);
     border: none;
     border-radius: 28px;
-    position: absolute;
-    right: 40px;
+    position: relative;
+    right: 50px;
     box-shadow: 0px 10px 15px var(--desaturated-red);
 }
 
 .error-icon{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: block;
     position: relative;
-    right: 90px;
+    right: 145px;
+    bottom: -2px;
 }
 
 .error-msg p{
     position: absolute;
-    bottom: 20px;
-    left: 40px;
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+    left: 65px;
     color: var(--soft-red);
 }
 
