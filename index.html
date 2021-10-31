@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/style.css" type="text/css">
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="./images/logo.svg" alt="company logo">
+  </header>
+  <main>
+    <div class="hero-img">
+      <div class="desktop">
+        <img src="./images/hero-desktop.jpg" alt="desktop hero image">
+      </div>
+      <div class="mobile">
+        <img src="./images/hero-mobile.jpg" alt="mobile hero image">
+      </div>
+    </div>
+    <div class="content">
+      <div class="content-text">
+        <h1><span class="accent">We're</span> coming soon</h1>
+        <p>Hello fellow shoppers! We're currently building our new fashion store. 
+        Add your email below to stay up-to-date with announcements and our launch deals.</p>
+      </div>
+      <div class="form-content">
+        <form>
+          <input type="email" name="email" class="email-box" aria-labelledby="email address" placeholder=" Email Address">
+          <button type="submit" aria-labelledby="submit">
+            <img src="./images/icon-arrow.svg" alt="submit arrow icon">
+          </button>
+          <div class="error-icon hidden">
+            <img src="./images/icon-error.svg" alt="error icon">
+          </div>
+        </form>
+        <div class="error-msg hidden">
+          <p>Please provide a valid email</p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/AleksandarV91">Salence</a>.
+    </p>
+  </footer>
+  <script src="./js/mail.js"></script>
+</body>
+</html>
