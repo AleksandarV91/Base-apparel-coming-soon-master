@@ -73,19 +73,18 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
+  
 }
 
 form{
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
-    margin-left: 75px;
+      margin: 10px 32px;
 }
 
 input{
-    display: flex;
-    justify-content: center;
+    display: block;
     width: 311px;
     height: 48px;
     border-radius: 28px;
