@@ -105,7 +105,6 @@ input::placeholder {
 .err-icon {
   position: absolute;
   right: 95px;
-  bottom: -350px;
 }
 
 .err-msg p {
