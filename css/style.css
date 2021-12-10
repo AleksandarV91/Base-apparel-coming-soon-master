@@ -99,12 +99,15 @@ input::placeholder {
   border-radius: 28px;
   background: var(--gradient2);
   position: absolute;
-  right: 25px;
+  right: 17%;
+  transform: translateY(-1%);
 }
 
 .err-icon {
   position: absolute;
-  right: 95px;
+  right: 32%;
+  bottom: -1.35rem;
+  transform: translateY(-50%);
 }
 
 .err-msg p {
