@@ -202,8 +202,8 @@ input::placeholder {
   }
 
   .err-icon {
-    left: 525px;
-    bottom: 170px;
+    right: 64%;
+    bottom: 9.67rem;
   }
 
   .err-msg {
